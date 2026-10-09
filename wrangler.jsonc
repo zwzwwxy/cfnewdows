@@ -1,13 +1,16 @@
 {
   "$schema": "https://unpkg.com/wrangler/config-schema.json",
-  "name": "freesegai",                 
+  "name": "freesegai",
   "main": "_worker.js",
   "compatibility_date": "2026-01-20",
-  "keep_vars": true
-  "kv_namespaces": "freesegai" [
+  "keep_vars": true,
+  "workers_dev": true,
+  "preview_urls": false,
+  "observability": { "enabled": true },
+  "kv_namespaces": [
     {
-      "binding": "c",
+      "binding": "C",
       "id": "067198cee4f34e49a97f76c2137efe7d"
     }
-  ],
+  ]
 }
