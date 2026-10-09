@@ -4,4 +4,10 @@
   "main": "_worker.js",
   "compatibility_date": "2026-01-20",
   "keep_vars": true
+  "kv_namespaces": [
+    {
+      "binding": "c",
+      "id": "067198cee4f34e49a97f76c2137efe7d"
+    }
+  ],
 }
